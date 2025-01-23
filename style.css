@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+.header-container{
+    display:flex;
+    background-color: #1F2937;
+    justify-content: center;
+    padding: 20px 0;
+    color: white;
+}
+
+.header-content{
+    width: 1200px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size:24px;
+    font-weight:bold;
+}
+
+
+.links {
+    display:flex;
+    justify-content: flex-end;
+    font-size:18px;
+}
+
+.link-two{
+    margin-left: 20px;
+}
+.link-three{
+    margin-left: 20px;
+}
+
+.awesome-container{
+    display:flex;
+    background-color: #1F2937;
+    height: 500px;
+    justify-content: center;
+}
+
+.awesome-content{
+    width: 1200px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.awesome-image{
+    height: 300px;
+    width: 600px;
+    background-color: grey;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+
+.awesome-text-container{
+    width: 500px;
+    height: 300px;
+}
+
+.main-text{
+    
+    font-size: 50px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.sub-text{
+    padding-top: 10px;
+    font-size: 20px;
+    color: #E5E7EB;
+}
+
+.Sign-up{
+    background-color: #3882F6;
+    height: 40px;
+    width: 130px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+}
