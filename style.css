@@ -4,6 +4,11 @@
     box-sizing: border-box;
     font-family: "Roboto";
 }
+p {
+    text-align: center;
+    font-family: "Roboto";
+    color: #828a9e;
+}
 
 .header-container{
     display:flex;
@@ -88,3 +93,67 @@
     color: white;
     font-size: 25px;
 }
+
+.information{
+    color: black;
+    text-align: center;
+    height: 125px;
+    font-size: 30px;
+    font-weight: bold;
+    align-content: center;
+}
+
+.illustration-container, .caption-container {
+
+    display: flex;
+    justify-content: center;
+} 
+
+.illustration-content  {
+    
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    width: 900px;
+
+    align-items: center;
+    align-content: center;
+}
+
+.caption-content {
+    display: flex;
+    justify-content:space-between;
+    height: 100px;
+    width: 900px;
+}
+
+.illustration-box, .caption-box {
+    
+    width: 150px;
+    height: 150px;
+
+
+}
+
+.illustration-box{
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
+
+.quote-container {
+    display: flex;
+    height: 300px;
+    background-color: #E5E7EB;
+    align-content: center;
+    justify-content: center;
+}
+
+.quote-content{
+    width: 600px;
+    border: 5px solid black;
+}
+
+
+
+
+
